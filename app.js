@@ -127,19 +127,19 @@ equal.addEventListener("click", function () {
   switch (operatorIncl) {
     case "add":
       result = Number(num1) + Number(num2);
-      display.textContent = result.toFixed(6);
+      display.textContent = result;
       break;
     case "subtract":
       result = Number(num1) - Number(num2);
-      display.textContent = result.toFixed(6);
+      display.textContent = result;
       break;
     case "multiply":
       result = Number(num1) * Number(num2);
-      display.textContent = result.toFixed(6);
+      display.textContent = result;
       break;
     case "divide":
       result = Number(num1) / Number(num2);
-      display.textContent = result.toFixed(6);
+      display.textContent = result;
       break;
   }
 });
